@@ -20,7 +20,11 @@ def EzPrimeCheck(Num):
     return True
 
 def PrimeCheck(Num):
-    if Num < 3 == 0:
+    if Num < 3:
+        return True
+    if Num == 3:
+        return True
+    if Num == 5:
         return True
     if Num % 2 == 0:
         return False
